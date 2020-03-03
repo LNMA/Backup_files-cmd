@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="34.0" y="367.0">com.louay.project.FileOperation</node>
+    <node x="252.0" y="0.0">com.louay.project.Test</node>
+    <node x="0.0" y="0.0">com.louay.project.MyFile</node>
+    <node x="23.5" y="446.0">com.louay.project.MyZipFile</node>
+    <node x="9.5" y="549.0">com.louay.project.CommandLineInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.louay.project.FileOperation" target="com.louay.project.MyFile">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="com.louay.project.CommandLineInterface" target="com.louay.project.MyZipFile">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.louay.project.MyZipFile" target="com.louay.project.FileOperation">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="469.0" y="269.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
